@@ -28,7 +28,7 @@ import static org.junit.jupiter.api.Assertions.*;
 //since adding commercialOffers to the database requires adding commercialServices,commercialOrders,Customers
 //and users,I have created a simple overall test of the application from start to finish
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class CommercialOfferOverallTest  {
+public class OverallTest {
 
     private static CommercialOrderServiceImpl commercialOrderService=new CommercialOrderServiceImpl(new CommercialOrderRepoImpl());
     private static ExpertServiceImpl expertService=new ExpertServiceImpl(new ExpertRepoImpl());
